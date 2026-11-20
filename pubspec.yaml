@@ -1,0 +1,31 @@
+name: anchorable
+description: >-
+  Attach a fully custom callout to anything — a chart data point, a region of
+  an image, a map spot, or a coordinate on a CustomPaint canvas. The target is a
+  pluggable resolver, the bubble is any widget, and the connector is any painter
+  that can leave the bubble at any point and arrive at the target from any angle.
+version: 0.1.0
+repository: https://github.com/sharmaprashant18/anchorable
+issue_tracker: https://github.com/sharmaprashant18/anchorable/issues
+
+topics:
+  - annotation
+  - tooltip
+  - callout
+  - overlay
+  - charts
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
